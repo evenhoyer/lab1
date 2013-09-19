@@ -1,0 +1,42 @@
+  body {
+  /* Alt som er innenfor body her, vil komme til syne i HTMTL-dokumentet */
+   padding-left: 11em;
+  /* Bestemmer posisjon til det vi har skrevet i body */
+	 font-family: Georgia, "Times New Roman",
+          Times, serif;
+  /* Her bestemmer vi fonten */
+    color: #FF0D00;
+    background-color: #66E275 }
+  /* Dette bestemmer fargen på teskten og bakgrunnen */
+	ul.navbar {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;	
+		position: absolute;
+		top: 2em;
+		left: 1em;
+		width: 9em }
+  
+h1 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif }
+		  ul.navbar li {
+    background: #39E24D;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid black }
+  ul.navbar a {
+    text-decoration: none }
+  /* Dette er kode for hvordan navigasjonsbaren skal se ut (dvs. hvor tykke marger, hvilke farger, font) samt plassering */
+  a:link { 
+    color: white  }
+  a:visited {
+    color: purple }
+  /* Dette er fargene på linkene i navigasjonsbaren. De er hvite, men etter at du har trykket så blir de blå */
+  
+address {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted }
+	
+  /* posisjonering til signeringen */
